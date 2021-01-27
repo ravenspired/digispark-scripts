@@ -18,19 +18,19 @@ void loop() {
     DigiKeyboard.delay(50);
     
   }
-  if(number = 2){
+  else if(number = 2){
     DigiKeyboard.print("b");
     DigiKeyboard.write("\t");
 
     DigiKeyboard.delay(50);
   }
-  if(number = 3){
+  else if(number = 3){
     DigiKeyboard.print("c");
     DigiKeyboard.write("\t");
 
     DigiKeyboard.delay(50);
   }
-  if(number = 4){
+  else{
     DigiKeyboard.print("d");
     DigiKeyboard.write("\t");
 
