@@ -6,8 +6,8 @@ void setup() {
 
 void loop() {
 
-
+DigiMouse.update();//refresh HID connection
   DigiMouse.setButtons(1<<0); //left click
-  delay(9999999999999);
+  
 
 }
